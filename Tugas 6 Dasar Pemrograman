@@ -1,0 +1,112 @@
+while(True):
+    print("\nNote: Batas umur menonton 18 tahun keatas")
+    umur = int(input("Masukkan umur anda: "))
+
+    if umur >= 18:
+        print("Anda boleh menonton film!")
+        
+        print("genre film")
+        genre_film = ('Horor', 'Comedy', 'Action', 'Thriller', 'Sci-fi', 'Keluar')
+        print("Pilihan:")
+        for i, genre_film in enumerate(genre_film, start=1):
+            print(f"{i}. {genre_film}")
+
+        pilih = int(input("Pilih genre film anda:"))
+
+        if pilih == 1:
+            print("\nhoror:\n1.kuntilanak\n2.pengabdi setan\n3.Pocong\n4.Lampor\n5.Khanzab")
+            pilihan = int(input("Pilih film anda: "))
+            if pilihan == 1:
+                print("\nNama film: kuntilanak\nHarga: 40000")
+                break
+            elif pilihan == 2:
+                print("\nNama film: pengabdi setan\nHarga: 40000")
+                break
+            elif pilihan == 3:
+                print("\nNama film: Pocong\nHarga: 40000")
+                break
+            elif pilihan == 4:
+                print("\nNama film: Lampor\nHarga: 40000")
+                break
+            else:
+                print("\nNama film: Khanzab\nHarga: 40000")
+                break
+
+        elif pilih == 2:
+            print("comedy:\n1.misterbean\n2.Warkop DKI\n3.Terlalu Tampan\n4.Orang kaya baru\n5.Gara-Gara Warisan")
+            pilihan = int(input("Pilih film anda:"))
+            if pilihan == 1:
+                print("Nama film: misterbean\nHarga: 40000")
+                break
+            elif pilihan == 2:
+                print("Nama film: Warkop DKI\nHarga: 40000")
+                break
+            elif pilihan == 3:
+                print("Nama film: Terlalu tampan\nHarga: 40000")
+                break
+            elif pilihan == 4:
+                print("Nama film: Orang kaya baru\nHarga: 40000")
+                break
+            else:
+                print("\nNama film: Gara-Gara warisan\nHarga: 40000")
+                break
+
+
+        elif pilih == 3:
+            print("action:\n1.Spiderman\n2.Doctor Strange\n3.Jhon Wick\n4.Uncharted\5.Avatar")
+            pilihan = int(input("Pilih film anda:"))
+            if pilihan == 1:
+                print("Nama film: Spiderman\nHarga: 40000")
+                break
+            elif pilihan == 2:
+                print("Nama film: Doctor Strange \nHarga: 40000")
+                break
+            elif pilihan == 3:
+                print("Nama film: Jhon wick \nHarga: 40000")
+                break
+            elif pilihan == 4:
+                print("Nama film: Uncharted \nHarga: 40000")
+                break
+            else:
+                print("Nama film: Avatar \nHarga: 40000")
+                
+        elif pilih == 4:
+            print("trhiler:\n1.Joker\n2.Ballerina\n3.The Silence of the Lambs\n4.Parasite\n5.Damsel")
+            pilihan = int(input("Pilih film anda:"))
+            if pilihan == 1:
+                print("Nama film: Joker\nHarga: 40000")
+                break
+            elif pilihan == 2:
+                print("Nama film: Ballerina \nHarga: 40000")
+                break
+            elif pilihan == 3:
+                print("Nama film: The Silence of the Lambs \nHarga: 40000")
+                break
+            elif pilihan == 4:
+                print("Nama film: Parasite \nHarga: 40000")
+                break
+            else:
+                print("Nama film: Damsel \nHarga : 40000")
+                break
+                
+        elif pilih == 5:
+            print("Sci-Fi:\n1.Interstellar\n2.Dune\n3.The Moon\n4.Arrival\n5.Transformers")
+            pilihan = int(input("Pilih film anda:"))
+            if pilihan == 1:
+                print("Nama film: Interstellar \nHarga: 40000")
+                break
+            elif pilihan == 2:
+                print("Nama film: Dune \nHarga: 40000")
+                break
+            elif pilihan == 3:
+                print("Nama film: The Moon \nHarga: 40000")
+                break
+            elif pilihan == 4:
+                print("Nama film: Arrival \nHarga: 40000")
+                break
+            else:
+                print("Nama film: Transformers \nHarga: 40000")
+                break
+    else:
+        print("Anda tidak boleh menonton")
+        break
